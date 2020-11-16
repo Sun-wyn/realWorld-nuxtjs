@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/ironman/Documents/study/notes/03-03/04/realworld-nuxtjs/pages/article"
+      }
+    ]
+  }
+]
